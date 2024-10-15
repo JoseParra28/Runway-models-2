@@ -2,3 +2,22 @@
 /*   ABOUT HERO   */
 /* -------------- */
 
+.about-div {
+    display: contents;
+    justify-content: center;
+    text-align: center;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.intro {
+    height: 25%;
+    align-items: flex-start;
+}
+.intro h2{
+    font-size: 4rem;
+}
+.intro p{
+    font-size: 1.1rem;
+    padding: 1rem;
+    
+}
