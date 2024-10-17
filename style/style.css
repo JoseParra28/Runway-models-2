@@ -21,3 +21,119 @@
     padding: 1rem;
     
 }
+
+/* -------------- */
+/* TALENT SECTION */
+/* -------------- */
+.talent {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.talent-imgs {
+    height: 40vh;
+    
+}
+.talent img {
+    height: 30vh;
+}
+.talent img:hover {
+    opacity: 0;
+}
+
+/* -------------- */
+/*     CONTACT    */
+/* -------------- */
+
+.form-image {
+    background-image: url(../css/images/man-in-white-top.webp);
+    height: 71vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    overflow: hidden;
+    margin-left: 0%;
+    margin-top: 0%;
+    position:relative;
+}
+#form-section {
+    clear:both;
+    background-size:cover;
+    background-position: center;
+    overflow:hidden;
+   
+}
+
+.signup-form {
+    background: linear-gradient(6deg, #a2a2a2,transparent);
+    margin: 150px 10% 0 0;
+    color: black;
+    max-width: 580px;
+    position: absolute;
+    left: 19%;
+    padding: 12px;
+    font-size: 25px;
+    animation-name: form-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes form-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
+.signup-form>h2 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: inherit;
+}
+
+.text-input-form {
+    background: transparent;
+    color: #000000;
+    width: 97%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+#message {
+    height: 100px;
+    width: 97%;
+}
+
+.text-input-form:hover {
+    border-color: #3a3a3a;
+    background-color: rgb(188, 184, 184);
+    opacity: .9;
+
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #111111;
+    display: block;
+    color: rgb(188, 184, 184);
+}
+
+.join-button:hover {
+    background-color: #7f2525;
+    color: rgb(188, 184, 184);
+    opacity: .9;
+}

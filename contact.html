@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Runway Models</title>
     <link rel="stylesheet" href="/style/global.css">
-    <link rel="stylesheet" href="/Runway-Models/static/home.html">
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <nav>
@@ -15,21 +15,40 @@
                 <li><a href="/home.html">Home</a></li>
                 <li><a href="/talent.html">Talent</a></li>
                 <li><a href="/about.html">About</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/contact.html">( )</a></li>
             </ul>
         </div>
     </nav>
-    <section>
+    
+        <section id="form-section" class="form-image">
+    
+            <form method="post" action="https://outlook.live.com/mail/0/" class="signup-form">
+                <h2>Make enquiry</h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input-form" name="first-name" type="text" required>
+        
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input-form" name="last-name" type="text" required>
+        
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input-form"  name="Email-address" type="text" required>
+        
+                <label for="message">Message</label>
+                <input id="message" class="text-input-form"  name="message" type="text" required>
+                
+                
+                <label for="radio">Our Models</label>
+                <input type="radio" id="radio" name="models-enquiry" value="radio" required>
+                
+                <label for="become">Become A Model</label>
+                <input type="radio" id="become" name="become-enquiry" value="become" required>
+        
+                <input class="join-button" type="submit" value="Send enquiry" > 
+             
+            </form>
+        
+        </section>
 
-
-<h1>test</h1>
-
-
-
-<div class="hero-img">
-    <img src="https://www.pexels.com/photo/young-jonn-28276863/" alt="">
-</div>
-    </section>
 
 
     <footer>
