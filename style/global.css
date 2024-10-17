@@ -68,16 +68,19 @@ section {
     background-color: var(--background);
 }
 .hero-images {
-    height: 100%;
-    position: absolute;
+    height: 10vh;
+    position: relative;
     display: flex;
     justify-content: center;
+    
     background-repeat: no-repeat;
 }
 .hero-img img{
-    background-image: url('https://www.pexels.com/photo/young-jonn-28276863/');
-    height: 50%;
-    padding: 0.4rem;
+    height: 70vh;
+    padding-bottom: 7%;
+    /* padding: 0; */
+    background-repeat: no-repeat;
+
 }
 .title-div{
     display: flex;
@@ -85,18 +88,18 @@ section {
     justify-content: center;
     color: var(--background);
     font-size: 7rem;
+    top: 30%;
     
 }
 .title {
-    /* position: absolute;
-    z-index: 3; */
-    /* padding-left: 20%;
-    padding-top: 10%; */
-    color: var(--font);
+    position: absolute;
+    z-index: 1;
+    top: 68.8%;
 }
 .title h1 {
-    font-size: 4rem;
-    color: var(--font);
+    font-size: 8rem;
+    color: var(--background);
+    font-weight: 100;
 }
 
 /* -------------- */
