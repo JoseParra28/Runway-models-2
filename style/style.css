@@ -42,16 +42,29 @@
     width: 100%;
     cursor: pointer;
     display: block;
+    z-index: 1;
 }
 .box {
     width: 100%;
+    z-index: 2;
+}
+#box-img {
+    background-color: #000000;
 }
 .img-desc {
-    color: rgb(121, 118, 118);
     font-size: 25px;
    text-align: center;
    border-bottom: 1px solid #3d3b3b;
+   color: var(--background);
 }
+.img-desc:hover {
+    color: #000000;
+}
+.box:hover {
+    background-color: var(--background);
+    z-index: 2;
+}
+
 
 /* -------------- */
 /*     CONTACT    */
