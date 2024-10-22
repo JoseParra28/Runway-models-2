@@ -24,7 +24,7 @@ html {
 /*   NAVBAR     */
 /* -------------- */
 nav {
-    height: 15vh;
+    height: 19vh;
     background-color: var(--background);
     display: flex;
     justify-content: space-around;
@@ -90,21 +90,16 @@ animation: growDown 300ms ease-in-out
     height: 4rem;
     padding: 1%;
     font-size: 1.5rem;
-    /* transform: rotateX(90deg); */
 }
 #show-menu {
     cursor: pointer;
 }
 
-
-
-
-
 /* -------------- */
 /*   SECTIONS     */
 /* -------------- */
 section {
-    height: 85vh;
+    height: 95vh;
     padding: 0;
     box-sizing: border-box;
     background-color: var(--background);
@@ -113,12 +108,20 @@ section {
 /*     HERO       */
 /* -------------- */
 #hero-image{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background: url(../assets/girl.jpg) center no-repeat; 
+    background: url(../assets/pexels-yuliya-kosolapova-1535772-3335431.jpg) center no-repeat; 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+@keyframes hero-zoom {
+    from {
+transform: scale(2);
+    }
+    to {
+transform: scale(1.1);
+    }
 }
 
 .title-div{
@@ -139,6 +142,26 @@ section {
     font-size: 8rem;
     color: var(--background);
     font-weight: 100;
+    animation: animate 3s alternate;
+}
+@keyframes animate {
+
+    40% {
+        opacity: 1;
+    }
+    42% {
+        opacity: 0.10;
+    }
+    43% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0.3;
+    }
+    46% {
+        opacity: 1;
+    }
+    
 }
 
 /* -------------- */
