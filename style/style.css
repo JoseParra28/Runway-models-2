@@ -17,8 +17,8 @@
     font-size: 4rem;
 }
 .intro p{
-    font-size: 1.1rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 2rem;
     
 }
 
@@ -91,17 +91,16 @@
 }
 
 .signup-form {
-    background: linear-gradient(6deg, #a2a2a2,transparent);
-    margin: 150px 10% 0 0;
+    
+    margin: 10px 10% 0 0;
     color: black;
-    max-width: 580px;
+    max-width: 480px;
+    max-height: 300px;
     position: absolute;
     left: 19%;
     padding: 12px;
     font-size: 25px;
-    animation-name: form-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+
 }
 @keyframes form-zoom {
     from {
@@ -117,7 +116,7 @@
 .signup-form>h2 {
     color: black;
     margin-bottom: 20px;
-    font-size: 35px;
+    font-size: 25px;
     font-family: inherit;
 }
 
@@ -133,7 +132,7 @@
 }
 
 #message {
-    height: 100px;
+    height: 25px;
     width: 97%;
 }
 
@@ -147,12 +146,12 @@
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 2%;
     text-align: center;
     font-size: 100%;
     background-color: #111111;
     display: block;
-    color: rgb(188, 184, 184);
+    color: rgb(255, 255, 255);
 }
 
 .join-button:hover {
