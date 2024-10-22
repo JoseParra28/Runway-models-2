@@ -88,7 +88,9 @@ z-index: 1;
     padding: 1%;
     font-size: 1.3rem;
 }
-
+#show-menu {
+    cursor: pointer;
+}
 
 
 
@@ -100,6 +102,7 @@ section {
     padding: 0;
     box-sizing: border-box;
     background-color: var(--background);
+    
 }
 .hero-images {
     height: 10vh;
@@ -109,10 +112,12 @@ section {
     
     background-repeat: no-repeat;
 }
+.hero-img {
+    position: absolute;
+}
 .hero-img img{
     height: 70vh;
     padding-bottom: 7%;
-    /* padding: 0; */
     background-repeat: no-repeat;
 
 }
@@ -150,6 +155,8 @@ section {
 footer {
     height: 40vh;
     background-color: var(--background);
+    width: 100%;;
+
 }
 .footer-div {
     display: flex;
