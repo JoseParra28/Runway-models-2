@@ -200,10 +200,10 @@ footer {
     justify-content: center;
     text-align: center;
 }
-/* .info {
+.info {
     box-sizing: border-box;
     padding: 5%;
-} */
+}
 .location {
     box-sizing: border-box;
     display: block;

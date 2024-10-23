@@ -13,7 +13,7 @@
     display: block;
    }
    .title h1 {
-    font-size: 2rem;
+    font-size: 3rem;
    }
    .footer-div {
     display: block ;
@@ -21,7 +21,17 @@
    }
    .box {
     width: 100%;
+    background-color: #EA0000;
    } 
+   .box p {
+    padding: 0.4rem;
+   }
+   .location ul {
+    padding: 0rem;
+    }
+    .location li {
+        padding: 0.3rem;
+    }
    .line {
     display: none;
    }
