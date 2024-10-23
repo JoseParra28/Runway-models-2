@@ -21,6 +21,26 @@
     padding: 2rem;
     
 }
+#about-section {
+    height: 50vh;
+}
+#container {
+    height: 20vh;
+}
+.sponsors {
+    height: 15vh;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.sponson-item {
+    text-align: center;
+}
+.sponson-item img {
+    height: 100px;
+}
 
 /* -------------- */
 /* TALENT SECTION */
