@@ -1,4 +1,6 @@
-
+/* -------------- */
+/*   MAIN PAGE    */
+/* -------------- */
 @media screen and (max-width:950px){
 
 
@@ -44,4 +46,20 @@
         display: none;
     }
 } 
-     
+/* -------------- */
+/*     ABOUT      */
+/* -------------- */
+@media screen and (max-width:950px){
+    .intro h2 {
+        font-size: 2rem;
+    }
+    .intro p {
+        font-size: 1.3rem;
+    }
+    #container {
+        height: 60px;
+    }
+    .sponson-item img {
+        height: 60px;
+    }
+}

@@ -107,6 +107,7 @@ section {
     padding: 0;
     box-sizing: border-box;
     background-color: var(--background);
+    overflow: hidden;
 }
 /* -------------- */
 /*     HERO       */
