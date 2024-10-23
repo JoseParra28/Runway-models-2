@@ -1,0 +1,37 @@
+
+@media screen and (max-width:950px){
+
+
+    .nav-links li{
+        display: none;
+    }
+    
+    .logo {
+        font-size: 1em;
+    }
+   .drop {
+    display: block;
+   }
+   .title h1 {
+    font-size: 2rem;
+   }
+   .footer-div {
+    display: block ;
+    width: 100%;
+   }
+   .box {
+    width: 100%;
+   } 
+   .line {
+    display: none;
+   }
+    
+}
+
+
+@media screen and (min-width:950px){
+    #show-menu {
+        display: none;
+    }
+} 
+     

@@ -44,6 +44,7 @@ nav ul {
     text-decoration: none;
     list-style: none;
     text-decoration-color: var(--font);
+    
 }
 a {
     list-style: none;
@@ -113,19 +114,22 @@ section {
 #hero-image{
     height: 700px;
     width: 100%;
-    background: url(../assets/pexels-yuliya-kosolapova-1535772-3335431.jpg) center no-repeat; 
+    background: url(../assets/pexels-yuliya-kosolapova-1535772-3335431.jpg) ; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-@keyframes hero-zoom {
+/* @keyframes hero-zoom {
     from {
 transform: scale(2);
     }
     to {
 transform: scale(1.1);
     }
-}
+} */
 
 .title-div{
     display: flex;
@@ -181,7 +185,7 @@ transform: scale(1.1);
 footer {
     height: 40vh;
     background-color: var(--background);
-    width: 100%;;
+    width: 100%;
 
 }
 .footer-div {
@@ -196,10 +200,10 @@ footer {
     justify-content: center;
     text-align: center;
 }
-.info {
+/* .info {
     box-sizing: border-box;
     padding: 5%;
-}
+} */
 .location {
     box-sizing: border-box;
     display: block;
