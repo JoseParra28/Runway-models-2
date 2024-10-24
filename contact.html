@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="/style/global.css">
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/media-queries.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "Rjd7Jdx71Vjb47t7C",
+        });
+    })();
+    </script>
 </head>
 <body>
     <nav>
@@ -42,10 +52,10 @@
     
             <form method="post" action="https://outlook.live.com/mail/0/" class="signup-form">
                 <h2>Make enquiry</h2>
-                <label for="fname">First Name</label>
+                <label for="fname">Name</label>
                 <input id="fname" class="text-input-form" name="first-name" type="text" required>
         
-                <label for="lname">Last Name</label>
+                <label for="lname">Subject</label>
                 <input id="lname" class="text-input-form" name="last-name" type="text" required>
         
                 <label for="email">Email Address</label>
@@ -56,12 +66,12 @@
                 
                 
                 <label for="radio">Our Models</label>
-                <input type="radio" id="radio" name="models-enquiry" value="radio" required>
+                <input type="radio" id="radio" name="models-enquiry" value="radio">
                 
                 <label for="become">Become A Model</label>
-                <input type="radio" id="become" name="become-enquiry" value="become" required>
+                <input type="radio" id="become" name="become-enquiry" value="become">
         
-                <input class="join-button" type="submit" value="Send enquiry" > 
+                <input class="join-button" type="submit" value="Send enquiry" onclick="sendMail"> 
              
             </form>
         
