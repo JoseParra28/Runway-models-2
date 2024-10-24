@@ -123,14 +123,14 @@ section {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-/* @keyframes hero-zoom {
+@keyframes hero-zoom {
     from {
 transform: scale(2);
     }
     to {
 transform: scale(1.1);
     }
-} */
+} 
 
 .title-div{
     display: flex;
