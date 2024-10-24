@@ -63,3 +63,18 @@
         height: 60px;
     }
 }
+
+/* -------------- */
+/*    TALENT      */
+/* -------------- */
+@media screen and (max-width:950px){
+
+
+    #talent-sect {
+        height: 250VH;
+    }
+    
+}
+
+
+
