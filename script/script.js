@@ -18,3 +18,5 @@ function sendMail(){
     emailjs.send("service_lgmsn2k","template_trumjrn",parms).then(alert("Email has been sent")) ;
 }
 
+
+
