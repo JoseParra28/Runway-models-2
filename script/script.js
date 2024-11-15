@@ -19,4 +19,14 @@ function sendMail(){
 }
 
 
+// Profile box
+
+let profileBox = document.querySelectorAll(".profile-box")
+
+for (i = 0; i < profileBox.length; i++)
+    
+    profileBox[i].addEventListener("click", function (){
+        console.log("You click box number" + this.i)
+    })
+
 
