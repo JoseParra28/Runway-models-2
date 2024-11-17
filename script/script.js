@@ -28,10 +28,8 @@ let hiddenDiv2 = document.querySelector(".ciara")
 let hiddenDiv3 = document.querySelector(".Tom")
 
 const closeDiv = document.querySelector(".close-modal")
-
 closeDiv.addEventListener("click", function (){
-    console.log("works")
-    hiddenDiv.style.display = "none";
+    hiddenDiv3.style.display = "none";
 })
 
 for (i = 0; i < profileBox.length; i++)

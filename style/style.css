@@ -87,8 +87,18 @@
 /* -------------- */
 /*     PROFILE    */
 
-.hidden {
+/* .hidden {
     display: none;
+} */
+
+.profile {
+    background-color: #000000;
+    position: absolute;
+    z-index: 2;
+    height: 60vh;
+}
+.profile img {
+    height: 1%;
 }
 
 
