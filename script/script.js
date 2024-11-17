@@ -58,7 +58,7 @@ for (i = 0; i < profileBox.length; i++)
         let buttonInnerHtml = this.innerHTML;
         
         switch (buttonInnerHtml) {
-            case "Stephen":
+            case "Nicolas":
                 hiddenDiv.style.display = "block";
                 break;
             case "Ciara":
