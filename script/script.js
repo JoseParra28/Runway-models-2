@@ -25,7 +25,14 @@ function sendMail(){
 let profileBox = document.querySelectorAll(".img-desc")
 let hiddenDiv = document.querySelector(".stephen")
 let hiddenDiv2 = document.querySelector(".ciara")
+let hiddenDiv3 = document.querySelector(".Tom")
 
+const closeDiv = document.querySelector(".close-modal")
+
+closeDiv.addEventListener("click", function (){
+    console.log("works")
+    hiddenDiv.style.display = "none";
+})
 
 for (i = 0; i < profileBox.length; i++)
     
@@ -36,10 +43,15 @@ for (i = 0; i < profileBox.length; i++)
         switch (buttonInnerHtml) {
             case "Stephen":
                 hiddenDiv.style.display = "block";
+                
                 break;
             case "Ciara":
                 hiddenDiv2.style.display = "block";
                 break;
+            case "Tom":
+                    hiddenDiv3.style.display = "block";
+                    closeDiv
+                    break;
                 
         
             default:
