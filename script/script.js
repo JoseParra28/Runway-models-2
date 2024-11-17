@@ -32,6 +32,12 @@ closeDiv.addEventListener("click", function (){
     hiddenDiv3.style.display = "none";
 })
 
+const closeDiv2 = document.querySelector(".close-modal2")
+closeDiv2.addEventListener("click", function (){
+    hiddenDiv.style.display = "none";
+    console.log("jdubs")
+})
+
 for (i = 0; i < profileBox.length; i++)
     
     profileBox[i].addEventListener("click", function (){

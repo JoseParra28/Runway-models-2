@@ -87,18 +87,43 @@
 /* -------------- */
 /*     PROFILE    */
 
-/* .hidden {
+.hidden {
     display: none;
-} */
+}
+button {
+    margin-top: 20px;
+    margin: 20px;
+    width: 50px;
+    border-radius: 20px;
+    padding: 2%;
+    align-items: center;
+    font-size: 100%;
+    background-color: #111111;
+    display: block;
+    color: rgb(255, 255, 255);
+}
 
 .profile {
-    background-color: #000000;
+    backdrop-filter: blur(10px);
+    background: rgba(1, 17, 27, 0.378);
+    border-radius: 15px;
     position: absolute;
     z-index: 2;
-    height: 60vh;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    
 }
 .profile img {
-    height: 1%;
+    width: 220px;
+    margin: 0px auto 60px; 
+    border-radius: 5px;
+    
+}
+.profile p {
+    margin: 40px;
 }
 
 
