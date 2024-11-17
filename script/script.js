@@ -28,20 +28,10 @@ let hiddenDiv = document.querySelector(".hidden")
 for (i = 0; i < profileBox.length; i++)
     
     profileBox[i].addEventListener("click", function (){
-        let currentBox = this.innerHTML
-        console.log(currentBox)
+    
+        this.style.display = "none"
     })
 
-function display (profile){
-    switch (currentBox) {
-        case document.querySelector("model-1"):
-            console.log("it works")
-            break;
-    
-        default:
-            break;
-    }
-}
-console.log(display)
+
 
 
