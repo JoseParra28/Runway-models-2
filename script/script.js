@@ -26,6 +26,7 @@ let profileBox = document.querySelectorAll(".img-desc")
 let hiddenDiv = document.querySelector(".stephen")
 let hiddenDiv2 = document.querySelector(".ciara")
 let hiddenDiv3 = document.querySelector(".Tom")
+let hiddenDiv4 = document.querySelector(".katherine")
 
 const closeDiv = document.querySelector(".close-modal")
 closeDiv.addEventListener("click", function (){
@@ -38,6 +39,18 @@ closeDiv2.addEventListener("click", function (){
     console.log("jdubs")
 })
 
+const closeDiv3 = document.querySelector(".close-modal3")
+closeDiv3.addEventListener("click", function (){
+    hiddenDiv2.style.display = "none";
+    console.log("jdubs")
+})
+
+const closeDiv4 = document.querySelector(".close-modal4")
+closeDiv4.addEventListener("click", function (){
+    hiddenDiv4.style.display = "none";
+    console.log("jdubs")
+})
+
 for (i = 0; i < profileBox.length; i++)
     
     profileBox[i].addEventListener("click", function (){
@@ -47,17 +60,16 @@ for (i = 0; i < profileBox.length; i++)
         switch (buttonInnerHtml) {
             case "Stephen":
                 hiddenDiv.style.display = "block";
-                
                 break;
             case "Ciara":
                 hiddenDiv2.style.display = "block";
                 break;
+            case "Katherine":
+                    hiddenDiv4.style.display = "block";
+                    break;
             case "Tom":
                     hiddenDiv3.style.display = "block";
-                    closeDiv
-                    break;
-                
-        
+
             default:
                 break;
         }
