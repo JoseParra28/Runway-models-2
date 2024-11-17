@@ -22,16 +22,30 @@ function sendMail(){
 // Profile box
 // .img-desc
 
-let profileBox = document.querySelectorAll(".profile-box")
-let hiddenDiv = document.querySelector(".hidden")
+let profileBox = document.querySelectorAll(".img-desc")
+let hiddenDiv = document.querySelector(".stephen")
+let hiddenDiv2 = document.querySelector(".ciara")
+
 
 for (i = 0; i < profileBox.length; i++)
     
     profileBox[i].addEventListener("click", function (){
-    
-        this.style.display = "none"
+       
+        let buttonInnerHtml = this.innerHTML;
+        
+        switch (buttonInnerHtml) {
+            case "Stephen":
+                hiddenDiv.style.display = "block";
+                break;
+            case "Ciara":
+                hiddenDiv2.style.display = "block";
+                break;
+                
+        
+            default:
+                break;
+        }
+
+
+
     })
-
-
-
-
